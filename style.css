@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lora', sans-serif;
+    background-image: url(FondoFoto.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: 0;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+  }
+  
+  header {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    background-color: rgba(218, 172, 255, 0.307);
+    background-size: 100%;
+    margin: 0%;
+    padding: 1em;
+    
+  }
+  
+  nav a {
+    color: rgb(29, 0, 147);
+    margin: 0 15px;
+    font-weight: normal;
+  }
+  
+  section{
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #H1{
+    letter-spacing: 10px;
+  }
+  
+  #MJ{
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+  }
+
+  #hobbies ul {
+    list-style: none;
+  }
+
+  #hobbies li::before {
+    content: "🐼";
+    margin-right: 0.5em;
+  }
+
+  #hobbies{
+    text-align: left;
+    font-weight: bold;
+    line-height: 35px;
+  }
+
+  img {
+    width: 340px;
+    height: 350px;
+    border-radius: 50%;
+  }
+  
+  form {
+    margin-top: 15px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  button {
+    background-color: #af4c96;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #6245a0;
+  }
+  
+  #contenido{
+    min-height: calc(100vh - 80px)
+  }
+
+  footer {
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    background-color: #400070;
+    margin-top: 40px;
+    bottom: 0;
+    width: 100%;
+  }
